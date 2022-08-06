@@ -18,7 +18,6 @@ const props = defineProps({
     default: 0,
   },
 })
-console.log(props.cart)
 </script>
 
 <template>
@@ -45,76 +44,76 @@ console.log(props.cart)
 </template>
 
 <style scoped>
+.card {
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  /* flex: 0 0 23%; */
+  margin: 1%;
+  width: calc(25% - 2%);
+  max-width: 320px;
+  min-height: 280px;
+}
 
+.card-header p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-body-text {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0rem 0.25rem 0.4rem;
+  width: 100%;
+}
+
+.card-body-text-middle {
+  flex: 1;
+  margin: 0 0.75rem;
+}
+
+.card-liner {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+.card-liner-dark {
+  border-top: 1px solid rgb(122, 122, 122);
+}
+
+.card-footer {
+  display: flex;
+  margin-top: 0.25rem;
+}
+.card-footer-label {
+  flex: 1;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 2rem;
+}
+.card-footer-value {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
   .card {
-    padding: 1rem;
-    border-radius: 3px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-    /* flex: 0 0 23%; */
-    margin: 1%;
-    width: calc(25% - 2%);
-    max-width: 320px;
+    margin: 1.25%;
+    width: calc(33% - 2.5%);
   }
+}
 
-  .card-header p {
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 0.25rem;
+@media (max-width: 768px) {
+  .card {
+    margin: 1.5%;
+    width: calc(50% - 3%);
   }
+}
 
-  .card-body-text {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    padding: 0.25rem 0rem 0.25rem 0.4rem;
-    width: 100%;
+@media (max-width: 480px) {
+  .card {
+    margin: 2%;
+    width: calc(100% - 4%);
   }
-
-  .card-body-text-middle {
-    flex: 1;
-    margin: 0 0.75rem;
-  }
-
-  .card-liner {
-    border-top: 1px solid rgb(222, 222, 222);
-  }
-
-  .card-liner-dark {
-    border-top: 1px solid rgb(122, 122, 122);
-  }
-
-  .card-footer {
-    display: flex;
-    margin-top: 0.25rem;
-  }
-  .card-footer-label {
-    flex: 1;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 2rem;
-  }
-  .card-footer-value {
-    font-weight: bold;
-  }
-
-  @media (max-width: 1024px) {
-    .card {
-      margin: 1.25%;
-      width: calc(33% - 2.5%);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .card {
-      margin: 1.5%;
-      width: calc(50% - 3%);
-    }
-  }
-
-  @media (max-width: 480px) {
-    .card {
-      margin: 2%;
-      width: calc(100% - 4%);
-    }
-  }
+}
 </style>

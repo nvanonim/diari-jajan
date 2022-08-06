@@ -1,34 +1,67 @@
 {
   "items": [
     {
-      "jam": "03:15",
-      "tanggal":"4 Agustus 2022",
-      "nama":"Ayam Tangkap",
-      "pengeluaran":77249
-    },
-    {
-      "jam": "03:15",
-      "tanggal":"4 Agustus 2022",
-      "nama":"Mie Rebus",
-      "pengeluaran":32154
-    },
-    {
-      "jam": "00:20",
-      "tanggal":"3 Agustus 2022",
-      "nama":"Soto Kuning",
-      "pengeluaran":34992
-    },
-    {
-      "jam": "05:59",
-      "tanggal":"3 Agustus 2022",
-      "nama":"Ayam Geprek",
-      "pengeluaran":37674
-    },
-    {
+      "id": 1,
       "jam": "05:45",
-      "tanggal":"2 Agustus 2022",
-      "nama":"Otak-otak",
-      "pengeluaran":11971
+      "tanggal": "2 Agustus 2022",
+      "nama": "Otak-otak",
+      "pengeluaran": 11971
+    },
+    {
+      "id": 2,
+      "jam": "05:59",
+      "tanggal": "3 Agustus 2022",
+      "nama": "Ayam Geprek",
+      "pengeluaran": 37674
+    },
+    {
+      "id": 3,
+      "jam": "00:20",
+      "tanggal": "3 Agustus 2022",
+      "nama": "Soto Kuning",
+      "pengeluaran": 34992
+    },
+    {
+      "id": 4,
+      "jam": "03:15",
+      "tanggal": "4 Agustus 2022",
+      "nama": "Mie Rebus",
+      "pengeluaran": 32154
+    },
+    {
+      "id": 5,
+      "jam": "03:15",
+      "tanggal": "4 Agustus 2022",
+      "nama": "Ayam Tangkap",
+      "pengeluaran": 77249
+    },
+    {
+      "nama": "Bakso",
+      "pengeluaran": 12600,
+      "tanggal": "6 Agustus 2022",
+      "jam": "07:52",
+      "id": 6
+    },
+    {
+      "nama": "Ayam Geprek",
+      "pengeluaran": 22000,
+      "tanggal": "6 Agustus 2022",
+      "jam": "18:14",
+      "id": 7
+    },
+    {
+      "nama": "Seblak",
+      "pengeluaran": 19305,
+      "tanggal": "6 Agustus 2022",
+      "jam": "20:31",
+      "id": 8
+    },
+    {
+      "nama": "Bakso",
+      "pengeluaran": 15000,
+      "tanggal": "7 Agustus 2022",
+      "jam": "00:52",
+      "id": 8
     }
   ]
 }
